@@ -182,10 +182,10 @@ function Labyrinth(cellsX, cellsY) {
 
 function main() {
     init();
-    labyrinth = new Labyrinth(100, 100);
-    labyrinth.generate(50, 50, 1, 1000000);
-    labyrinth.setInitPos();
-    labyrinth.setTargetPos();
-    labyrinth.findTarget(1000);
+    labyrinth = new Labyrinth(50, 50);
+    labyrinth.generate(25, 25, 1, 1000000);
+    //labyrinth.setInitPos();
+    //labyrinth.setTargetPos();
+    //labyrinth.findTarget(1000);
     labyrinth.render(canvas.height, c);
 }
